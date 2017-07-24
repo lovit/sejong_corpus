@@ -82,6 +82,6 @@
     ....
 
 [processedfile]: https://drive.google.com/open?id=0B3zCcS70xP4ZTFlyWVF4NFdxYkk
-[lr]: https://drive.google.com/open?id=0B3zCcS70xP4ZTFNmRktoMklnZms
+[lr]: https://drive.google.com/open?id=0B3zCcS70xP4ZNnpNTXFIM1hzYW8
 [soynlp]: https://github.com/lovit/soynlp
 [cbne]: https://github.com/lovit/classifier_based_noun_extractor
