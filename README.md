@@ -276,6 +276,57 @@
     I: (82047, 0.335)
     U: (18635, 0.076)
 
+### 품사 별 고유 단어 개수 통계
+
+고유 단어 개수는 명사가 압도적이며, 일반명사의 경우 한 단어 당 평균 60번, 동사의 경우 평균 280번 등장하지만, 어미나 조사의 경우에는 천/만 단위로 등장하는 것을 볼 수 있다. 명사/형용사/동사/부사는 open class 이여서 여러 개념들이 각 상황에 맞게 쓰이는 것이지만 어미/조사는 문법 기능을 하는 closed class이기 때문에 종류는 적고 사용량은 많다. 
+
+      NNG: unique= 90298, frequency= 5423295, freq/unique= 60.06
+       VV: unique=  6603, frequency= 1847882, freq/unique= 279.85
+       EC: unique=  1816, frequency= 1774216, freq/unique= 976.99
+      ETM: unique=   166, frequency= 1356148, freq/unique= 8169.57
+      JKB: unique=   125, frequency= 1023071, freq/unique= 8184.57
+       JX: unique=   140, frequency=  953858, freq/unique= 6813.27
+       SF: unique=    15, frequency=  930944, freq/unique= 62062.93
+       EF: unique=  1987, frequency=  869235, freq/unique= 437.46
+      JKO: unique=    10, frequency=  830502, freq/unique= 83050.20
+      NNB: unique=   553, frequency=  751990, freq/unique= 1359.84
+      MAG: unique=  6312, frequency=  713017, freq/unique= 112.96
+      JKS: unique=    20, frequency=  623600, freq/unique= 31180.00
+      XSV: unique=    26, frequency=  582283, freq/unique= 22395.50
+       SS: unique=    57, frequency=  569874, freq/unique= 9997.79
+       EP: unique=    76, frequency=  558982, freq/unique= 7355.03
+      JKG: unique=    10, frequency=  521486, freq/unique= 52148.60
+       VX: unique=   126, frequency=  514576, freq/unique= 4083.94
+       SP: unique=    35, frequency=  494628, freq/unique= 14132.23
+      NNP: unique= 60045, frequency=  469068, freq/unique= 7.81
+      VCP: unique=    15, frequency=  467462, freq/unique= 31164.13
+      XSN: unique=   124, frequency=  439658, freq/unique= 3545.63
+       VA: unique=  1612, frequency=  429078, freq/unique= 266.18
+       NP: unique=   277, frequency=  386861, freq/unique= 1396.61
+       MM: unique=   228, frequency=  346899, freq/unique= 1521.49
+       SN: unique=  3604, frequency=  253364, freq/unique= 70.30
+      XSA: unique=    21, frequency=  230358, freq/unique= 10969.43
+       JC: unique=    51, frequency=  149972, freq/unique= 2940.63
+       XR: unique=  2372, frequency=  133908, freq/unique= 56.45
+      ETN: unique=    18, frequency=  129824, freq/unique= 7212.44
+      MAJ: unique=   258, frequency=  117480, freq/unique= 455.35
+       NR: unique=   422, frequency=   91895, freq/unique= 217.76
+       IC: unique=  1201, frequency=   82047, freq/unique= 68.32
+       SL: unique= 17283, frequency=   73109, freq/unique= 4.23
+       SH: unique= 32790, frequency=   59171, freq/unique= 1.80
+      JKC: unique=     5, frequency=   58901, freq/unique= 11780.20
+      VCN: unique=     9, frequency=   49741, freq/unique= 5526.78
+      XPN: unique=    77, frequency=   44791, freq/unique= 581.70
+       SW: unique=   266, frequency=   32540, freq/unique= 122.33
+       SE: unique=    11, frequency=   27716, freq/unique= 2519.64
+      JKQ: unique=    10, frequency=   18922, freq/unique= 1892.20
+       SO: unique=    23, frequency=    7423, freq/unique= 322.74
+      UNC: unique=   448, frequency=    6506, freq/unique= 14.52
+      UNA: unique=   584, frequency=    6361, freq/unique= 10.89
+      UNT: unique=  1819, frequency=    5768, freq/unique= 3.17
+      JKV: unique=    16, frequency=    3920, freq/unique= 245.00
+       
+
 
 ### 명사 길이 통계
 
