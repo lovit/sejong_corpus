@@ -1,10 +1,3 @@
-# 세종말뭉치 정제 데이터
-
-세종말뭉치의 문장, 품사 부분만을 선택하여 학습용 파일로 만들었습니다. raw file로부터 [processing][processedfile]된 파일은 link로 있으며, [soynlp][soynlp]와 [classifier based noun extractor][cbne]에 이용되는 [L-R matrix 형태][lr]로 가공된 데이터도 링크로 공유합니다. 
-
-압축되어 있는 파일을 README.md가 있는 . 폴더에서 풀면 Jupyter notebook 파일들과 경로가 맞습니다. 
-
-
 ## 세종 말뭉치 통계
 
 ### 어절 통계
@@ -422,8 +415,3 @@
     바스락바스락거리/VV
     으르렁으르렁거리/VV
     엎치락뒤치락거리/VV
-
-[processedfile]: https://drive.google.com/open?id=0B3zCcS70xP4ZTFlyWVF4NFdxYkk
-[lr]: https://drive.google.com/open?id=0B3zCcS70xP4ZNnpNTXFIM1hzYW8
-[soynlp]: https://github.com/lovit/soynlp
-[cbne]: https://github.com/lovit/classifier_based_noun_extractor
