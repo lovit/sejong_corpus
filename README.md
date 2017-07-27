@@ -325,7 +325,18 @@
       UNA: unique=   584, frequency=    6361, freq/unique= 10.89
       UNT: unique=  1819, frequency=    5768, freq/unique= 3.17
       JKV: unique=    16, frequency=    3920, freq/unique= 245.00
-       
+
+품사를 대분류 기준으로 봐도 경향은 동일하다
+
+    N: unique= 144294, frequency= 7124644, freq/unique= 49.38
+    E: unique=   3142, frequency= 4688406, freq/unique= 1492.17
+    J: unique=    289, frequency= 4184235, freq/unique= 14478.32
+    V: unique=   7989, frequency= 3308743, freq/unique= 414.16
+    S: unique=  53965, frequency= 2444442, freq/unique= 45.30
+    X: unique=   2559, frequency= 1430998, freq/unique= 559.20
+    M: unique=   6662, frequency= 1177399, freq/unique= 176.73
+    I: unique=   1201, frequency=   82047, freq/unique= 68.32
+    U: unique=   2698, frequency=   18635, freq/unique= 6.91       
 
 
 ### 명사 길이 통계
