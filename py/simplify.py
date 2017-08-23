@@ -125,6 +125,17 @@ def Josa(pos):
         return pos[:b] + [(''.join((w for w,_ in pos[b:])), 'Josa')]
     return pos
 
+def MergeEomiJosa(pos):
+    if pos[-1][1] == 'Eomi' or pos[-1][1] == 'Josa' and not (pos[0][1] == 'Eomi' or pos[0][1] == 'Josa'):
+        b = 1
+        for i, (_, tag) in enumerate(reversed(pos)):
+            if tag == 'Eomi' or tag == 'Josa':
+                b = (i+1)
+            else:
+                break
+        return pos[:-b] + [(''.join((w for w, _ in pos[-b:])), pos[-b][1])]
+    return pos
+
 def detach_symbol(pos, remove_symbol=True):
     pos_ = []
     symbol_idx = [i for i, (_, tag) in enumerate(pos) if tag[0] == 'S' and not (tag == 'SN')]
@@ -149,6 +160,7 @@ def _process(pos):
     pos = negative_verb(pos)
     pos = Eomi(pos)
     pos = Josa(pos)
+    pos = MergeEomiJosa(pos)
     return pos
 
 def hardrule(pos):
