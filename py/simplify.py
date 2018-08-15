@@ -9,6 +9,11 @@ def toshort(tag):
     if tag[:2] == 'IC': return 'Exclamation' # 감탄사
     if tag[:2] == 'MM': return 'Determiner'  # 관형사
     if tag[:3] == 'XPN': return 'Noun'       # 체언접두사
+    if tag[:3] == 'VCP': return 'Adjective'  # 이다
+    if tag[:3] == 'VCN': return 'Adjective'  # 아니다
+    if tag[:3] == 'XSA': return 'Adjective'  # 형용사 파생 접미사
+    if tag[:3] == 'XSN': return 'Noun'       # 명사 파생 접미사
+    if tag[:3] == 'XSV': return 'Verb'       # 동사 파생 접미사
     if tag[:2] == 'VC' or tag[:2] == 'XS': return tag
     if tag[:2] == 'SN': return 'SN'
     if tag[0] == 'S': return 'Symbol'
