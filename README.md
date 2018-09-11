@@ -417,3 +417,5 @@
     바스락바스락거리/VV
     으르렁으르렁거리/VV
     엎치락뒤치락거리/VV
+
+[lr]: https://github.com/lovit/sejong_corpus/raw/master/dictionary/tokentable/tokentable.zip
